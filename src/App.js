@@ -13,9 +13,16 @@ function App() {
       .then(data => setJoke(data.value))
     }
 
+    const [searchInput, setSearchInput] = useState('');
+    const searchItems = () => {
+        
+    }
+
+
 
   return (
     <div className="app">
+    
     <h1>Chuck Norris Facts!</h1>
     <h2>{joke}</h2>
     <button onClick={fetchJoke}>Roundhouse me another fact!</button>
