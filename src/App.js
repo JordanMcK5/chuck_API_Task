@@ -34,6 +34,7 @@ function App() {
     <h2>{joke}</h2>
     <button onClick={fetchJoke}>Roundhouse me another fact!</button>
     <button onClick={addJokeToFavourites}>Add to favourites!</button>
+    <h3>Your Favourite Facts</h3>
     <FavouriteJokeList favouriteJokes = {favouriteJokes}/>
     <img className="chuckgif" height="100" src={`${process.env.PUBLIC_URL}/roundhouse.gif`}  />
     </div>
