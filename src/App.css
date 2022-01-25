@@ -1,0 +1,23 @@
+html {
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.app {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
