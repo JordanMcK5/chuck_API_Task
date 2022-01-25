@@ -30,11 +30,12 @@ function App() {
   return (
     <div className="app">
     
-    <h1>Chuck Norris Facts!</h1>
+    <img className="main_logo" height="250" src={`${process.env.PUBLIC_URL}/heading.png`}  />
     <h2>{joke}</h2>
     <button onClick={fetchJoke}>Roundhouse me another fact!</button>
     <button onClick={addJokeToFavourites}>Add to favourites!</button>
     <FavouriteJokeList favouriteJokes = {favouriteJokes}/>
+    <img className="chuckgif" height="100" src={`${process.env.PUBLIC_URL}/roundhouse.gif`}  />
     </div>
   );
 }
